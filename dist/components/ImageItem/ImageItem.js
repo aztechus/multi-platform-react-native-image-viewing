@@ -7,10 +7,10 @@
  */
 import React, { useCallback, useRef, useState } from "react";
 import { Animated, ScrollView, Dimensions, StyleSheet, } from "react-native";
-import useImageDimensions from "../../hooks/useImageDimensions";
-import usePanResponder from "../../hooks/usePanResponder";
-import { getImageStyles, getImageTransform } from "../../utils";
-import { ImageLoading } from "./ImageLoading";
+import useImageDimensions from "react-native-image-viewing/dist/hooks/useImageDimensions";
+import usePanResponder from "react-native-image-viewing/dist/hooks/usePanResponder";
+import { getImageStyles, getImageTransform } from "react-native-image-viewing/dist/utils";
+import { ImageLoading } from "react-native-image-viewing/dist/components/ImageItem/ImageLoading";
 const SWIPE_CLOSE_OFFSET = 75;
 const SWIPE_CLOSE_VELOCITY = 1.75;
 const SCREEN = Dimensions.get("window");
