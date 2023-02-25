@@ -35,7 +35,7 @@ const useImageDimensions = (image) => {
                 }
                 else {
                     // @ts-ignore
-                    Image.getSize(source.uri, (width, height) => {
+                    Image.getSize(cacheKey, (width, height) => {
                         imageDimensionsCache.set(cacheKey, { width, height });
                         resolve({ width, height });
                     }, () => {
