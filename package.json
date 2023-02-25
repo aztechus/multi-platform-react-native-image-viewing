@@ -20,9 +20,14 @@
     "react": ">=16.11.0",
     "react-native": ">=0.61.3"
   },
+  "files": [
+    "dist",
+    "readme.md",
+    "package.json"
+  ],
   "author": "Anton Kalinin",
   "license": "MIT",
-  "homepage": "https://github.com/aztechus/multi-platform-react-native-image-viewing",
+  "homepage": "https://github.com/jobtoday/react-native-image-viewing#readme",
   "devDependencies": {
     "@babel/runtime": "7.7.4",
     "@types/react": "16.9.13",
